@@ -1,0 +1,108 @@
+body {
+  font-family: "Courier New", serif;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+  font-family: "Special Elite", "Courier New", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+strong {
+  font-size: 1.1em;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.container {
+  flex-grow: 1;
+}
+.container-anchor {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container-anchor a {
+  display: block;
+  text-decoration: none;
+}
+
+.inRed {
+  background-color: red;
+  color: white;
+}
+
+li.active a {
+  background-color: forestgreen;
+}
+
+a.del {
+  color: white;
+  background-color: tomato;
+  padding: 0.8rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+a.edit {
+  color: white;
+  background-color: blueviolet;
+  padding: 0.8rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+textarea.contentFile {
+  width: 100%;
+  color: black;
+  font-size: 1.3rem;
+}
+
+a.button {
+  color: white;
+  background-color: darksalmon;
+  padding: 0.8rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+alert-success {
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  border: 1px solid black;
+  font-size: 1.5;
+}
